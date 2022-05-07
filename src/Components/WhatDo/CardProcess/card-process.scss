@@ -1,0 +1,20 @@
+$light-color: #ebf0f5;
+$font-bold: #4b4b4b;
+$font-light: #707070;
+$font-white: #e4e4e4;
+
+.card-process-container{
+    background-color: #446D98;
+    // padding:  20px 10px;
+    min-height: 6rem;
+    margin: 20px 50px;
+    border-radius: 8px;
+    color: $font-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    p{
+        font-weight: lighter;
+    }
+}
