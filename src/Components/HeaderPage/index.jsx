@@ -6,8 +6,8 @@ export const HeaderPage = () => {
             <div className='header-div'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    width='45'
-                    height='45'
+                    width='50'
+                    height='50'
                     fill='currentColor'
                     className='bi bi-list header-menu'
                     viewBox='0 0 16 16'>
