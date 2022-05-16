@@ -25,6 +25,12 @@ export const Carrousel = () => {
                 <CarrouselItem img={image1} description='hoa' />
                 <CarrouselItem img={image1} description='hoa' />
                 <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={image1} description='hoa' />
             </div>
             <div
                 className='product-icon-row row-right'
