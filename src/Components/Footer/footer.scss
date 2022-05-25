@@ -1,0 +1,16 @@
+.pre-footer-container {
+    background-color: #d5dde5;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .map-iframe {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px #0000008f;
+    }
+}
+footer {
+    background-color: #58636e;
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Contact } from './Components/Contact';
+import { Feet } from './Components/Feet';
+import { Footer } from './Components/Footer';
 
 import { HeaderPage } from './Components/HeaderPage';
 import { WhatDo } from './Components/WhatDo';
@@ -11,6 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <main>
             <WhatDo />
             <Products />
+            <Feet />
+            <Contact />
+            <Footer />
         </main>
     </>
 );

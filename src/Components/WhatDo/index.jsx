@@ -3,7 +3,7 @@ import './what-do.scss';
 
 export const WhatDo = () => {
     return (
-        <section>
+        <section className='wwd-container'>
             <div>
                 <h2 className='what-do-title'>¿Qué hacemos?</h2>
                 <p className='what-do-p'>
