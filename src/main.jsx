@@ -7,6 +7,7 @@ import { Footer } from './Components/Footer';
 import { HeaderPage } from './Components/HeaderPage';
 import { WhatDo } from './Components/WhatDo';
 import { Products } from './Components/WhatDo/Products';
+import './index.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>

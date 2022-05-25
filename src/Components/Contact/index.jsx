@@ -1,7 +1,7 @@
 import './contact.scss';
 export const Contact = () => {
     return (
-        <div className='contact-container'>
+        <div className='contact-container' id='contact'>
             <h3>Contacto</h3>
             <div>
                 <p>

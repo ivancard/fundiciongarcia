@@ -7,16 +7,16 @@ export const Footer = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a>Inicio</a>
+                                <a href='#start'>Inicio</a>
                             </li>
                             <li>
-                                <a>¿Que hacemos?</a>
+                                <a href='#wwd'>¿Que hacemos?</a>
                             </li>
                             <li>
-                                <a>Productos</a>
+                                <a href='#products'>Productos</a>
                             </li>
                             <li>
-                                <a>Contacto</a>
+                                <a href='#contact'>Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -35,7 +35,7 @@ export const Footer = () => {
             </section>
             <footer>
                 Copyright 2022 © Fundicion Garcia | Todos los derechos
-                reservados d
+                reservados.
             </footer>
         </>
     );

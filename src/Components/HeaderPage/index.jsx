@@ -3,7 +3,7 @@ import logo from '../../assets/img/logo.jpg';
 export const HeaderPage = () => {
     return (
         <header>
-            <div className='header-div'>
+            <div className='header-div' id='start'>
                 <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='50'
