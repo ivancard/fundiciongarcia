@@ -10,12 +10,9 @@ export const WhatDo = () => {
                     Hacemos piezas de aluminio a través de tres procesos
                 </p>
             </div>
-            <CardProcess title='En tierra' body='Usando tierra como molde' />
-            <CardProcess title='En arena' body='Usando arena como molde' />
-            <CardProcess
-                title='Por coquilla'
-                body='Usando máquina de coquilla'
-            />
+            <CardProcess title='En tierra' />
+            <CardProcess title='En arena' />
+            <CardProcess title='Por coquilla' />
         </section>
     );
 };

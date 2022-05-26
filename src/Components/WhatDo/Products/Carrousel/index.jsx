@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import { CarrouselItem } from './CarrouselItem';
-import image1 from '../../../../assets/img/product-1.jpg';
-
+import products from '../../../../assets/img/products';
 import './carrousel.scss';
 
 export const Carrousel = () => {
@@ -33,18 +32,18 @@ export const Carrousel = () => {
             </button>
 
             <div className='carrousel-container' ref={carrousel}>
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
-                <CarrouselItem img={image1} description='hoa' />
+                <CarrouselItem img={products.prod1} description='hoa' />
+                <CarrouselItem img={products.prod2} description='hoa' />
+                <CarrouselItem img={products.prod3} description='hoa' />
+                <CarrouselItem img={products.prod4} description='hoa' />
+                <CarrouselItem img={products.prod2} description='hoa' />
+                <CarrouselItem img={products.prod1} description='hoa' />
+                <CarrouselItem img={products.prod4} description='hoa' />
+                <CarrouselItem img={products.prod3} description='hoa' />
+                <CarrouselItem img={products.prod4} description='hoa' />
+                <CarrouselItem img={products.prod2} description='hoa' />
+                <CarrouselItem img={products.prod3} description='hoa' />
+                <CarrouselItem img={products.prod1} description='hoa' />
             </div>
             <button
                 onClick={handleRightClick}
