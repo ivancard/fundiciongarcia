@@ -7,11 +7,11 @@ import imgPata6 from '../assets/img/patas/pata-6.jpg';
 import imgPata7 from '../assets/img/patas/pata-7.jpg';
 
 export default [
-    { id: 1, title: 'pata bocha', img: imgPata1 },
-    { id: 2, title: 'pata Berlin', img: imgPata2 },
-    { id: 3, title: 'pata L', img: imgPata3 },
-    { id: 4, title: 'pata Stylo', img: imgPata4 },
-    { id: 5, title: 'pata taco corto', img: imgPata5 },
-    { id: 6, title: 'pata vicera larga', img: imgPata6 },
-    { id: 7, title: 'pata tipo Y ', img: imgPata7 },
+    { id: 1, title: 'Pata bocha', img: imgPata1 },
+    { id: 2, title: 'Pata Berlin', img: imgPata2 },
+    { id: 3, title: 'Pata L', img: imgPata3 },
+    { id: 4, title: 'Pata Stylo', img: imgPata4 },
+    { id: 5, title: 'Pata taco corto', img: imgPata5 },
+    { id: 6, title: 'Pata vicera larga', img: imgPata6 },
+    { id: 7, title: 'Pata tipo Y ', img: imgPata7 },
 ];
